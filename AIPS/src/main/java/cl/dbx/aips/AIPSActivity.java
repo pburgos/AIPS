@@ -108,7 +108,7 @@ public class AIPSActivity extends Activity implements OnClickListener {
     }
 
     private String getLocation(){
-        return (String )locationEditText.getText().toString();
+        return locationEditText.getText().toString();
     }
 
     private String getDateTime() {
